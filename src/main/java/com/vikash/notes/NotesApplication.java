@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
-@SpringBootApplication(exclude = { SecurityAutoConfiguration.class })
+@SpringBootApplication
 @CrossOrigin
 @RestController
-@RequestMapping("api/v1/customers/")
+@RequestMapping("api/v1/customers")
 public class NotesApplication {
 
 //	@Autowired
