@@ -1,5 +1,6 @@
 package com.vikash.notes;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -13,12 +14,14 @@ import java.util.Optional;
 @CrossOrigin
 @RestController
 @RequestMapping("api/v1/customers")
+@Slf4j
 public class NotesApplication {
 
 //	@Autowired
 //	private CustomerRepository customerRepository;
 //
 	public static void main(String[] args) {
+	    log.info("Run Spring Boot Application");
 		SpringApplication.run(NotesApplication.class, args);
 	}
 //
