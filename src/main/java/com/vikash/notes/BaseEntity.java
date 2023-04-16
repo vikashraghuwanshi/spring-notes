@@ -13,6 +13,9 @@ public class BaseEntity {
    private transient boolean isNew;
 
 
+   
+
+
 
 
 }
