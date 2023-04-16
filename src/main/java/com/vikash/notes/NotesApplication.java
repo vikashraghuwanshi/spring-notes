@@ -22,6 +22,8 @@ public class NotesApplication {
 //
 	public static void main(String[] args) {
 	    log.info("Run Spring Boot Application");
+
+	    
 		SpringApplication.run(NotesApplication.class, args);
 	}
 //
